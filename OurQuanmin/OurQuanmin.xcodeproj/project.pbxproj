@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		629F6DAC1D1BDD3900D752C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629F6DAB1D1BDD3900D752C1 /* Assets.xcassets */; };
+		629F6DAF1D1BDD3900D752C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629F6DAD1D1BDD3900D752C1 /* LaunchScreen.storyboard */; };
+		629F6DE51D1BDFC700D752C1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6DCD1D1BDFC700D752C1 /* HomeViewController.m */; };
+		629F6DE71D1BDFC700D752C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6DD81D1BDFC700D752C1 /* AppDelegate.m */; };
+		629F6DE81D1BDFC700D752C1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 629F6DD91D1BDFC700D752C1 /* Info.plist */; };
+		629F6DE91D1BDFC700D752C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6DDB1D1BDFC700D752C1 /* main.m */; };
+		629F6DEA1D1BDFC700D752C1 /* UserInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6DE01D1BDFC700D752C1 /* UserInfoTableViewController.m */; };
+		629F6DEB1D1BDFC700D752C1 /* UserInfoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 629F6DE11D1BDFC700D752C1 /* UserInfoTableViewController.xib */; };
+		629F6DEF1D1BE0B500D752C1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 629F6DEE1D1BE0B500D752C1 /* Podfile */; };
+		629F6DFE1D1BE42000D752C1 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6DFB1D1BE42000D752C1 /* MainTabBarViewController.m */; };
+		629F6E031D1C01F800D752C1 /* LiveTVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6E021D1C01F800D752C1 /* LiveTVViewController.m */; };
+		629F6E061D1C021B00D752C1 /* ColumnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6E051D1C021B00D752C1 /* ColumnViewController.m */; };
+		629F6E151D1C079100D752C1 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 629F6E121D1C079100D752C1 /* home@2x.png */; };
+		629F6E161D1C079100D752C1 /* mic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 629F6E131D1C079100D752C1 /* mic@2x.png */; };
+		629F6E171D1C079100D752C1 /* setting_hg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 629F6E141D1C079100D752C1 /* setting_hg@2x.png */; };
+		629F6E1A1D1C081E00D752C1 /* QuanminTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6E191D1C081E00D752C1 /* QuanminTabbar.m */; };
+		99918DE2D59F2E6D1A5EF478 /* libPods-OurQuanmin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A65C16927A2F69AAA92EC00C /* libPods-OurQuanmin.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		629F6D9C1D1BDD3900D752C1 /* OurQuanmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurQuanmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		629F6DAB1D1BDD3900D752C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		629F6DAE1D1BDD3900D752C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		629F6DCC1D1BDFC700D752C1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		629F6DCD1D1BDFC700D752C1 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		629F6DD71D1BDFC700D752C1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		629F6DD81D1BDFC700D752C1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		629F6DD91D1BDFC700D752C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = main/Info.plist; sourceTree = "<group>"; };
+		629F6DDB1D1BDFC700D752C1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = main/other/main.m; sourceTree = "<group>"; };
+		629F6DDF1D1BDFC700D752C1 /* UserInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoTableViewController.h; sourceTree = "<group>"; };
+		629F6DE01D1BDFC700D752C1 /* UserInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoTableViewController.m; sourceTree = "<group>"; };
+		629F6DE11D1BDFC700D752C1 /* UserInfoTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoTableViewController.xib; sourceTree = "<group>"; };
+		629F6DEE1D1BE0B500D752C1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		629F6DFA1D1BE42000D752C1 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		629F6DFB1D1BE42000D752C1 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		629F6E011D1C01F800D752C1 /* LiveTVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveTVViewController.h; sourceTree = "<group>"; };
+		629F6E021D1C01F800D752C1 /* LiveTVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveTVViewController.m; sourceTree = "<group>"; };
+		629F6E041D1C021B00D752C1 /* ColumnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnViewController.h; sourceTree = "<group>"; };
+		629F6E051D1C021B00D752C1 /* ColumnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnViewController.m; sourceTree = "<group>"; };
+		629F6E121D1C079100D752C1 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		629F6E131D1C079100D752C1 /* mic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mic@2x.png"; sourceTree = "<group>"; };
+		629F6E141D1C079100D752C1 /* setting_hg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_hg@2x.png"; sourceTree = "<group>"; };
+		629F6E181D1C081E00D752C1 /* QuanminTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuanminTabbar.h; sourceTree = "<group>"; };
+		629F6E191D1C081E00D752C1 /* QuanminTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuanminTabbar.m; sourceTree = "<group>"; };
+		8FF8B2CC0B67E6810267FAF1 /* Pods-OurQuanmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurQuanmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OurQuanmin/Pods-OurQuanmin.debug.xcconfig"; sourceTree = "<group>"; };
+		A65C16927A2F69AAA92EC00C /* libPods-OurQuanmin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OurQuanmin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F143EE4CFB70F8BB959925ED /* Pods-OurQuanmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurQuanmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-OurQuanmin/Pods-OurQuanmin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		629F6D991D1BDD3900D752C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99918DE2D59F2E6D1A5EF478 /* libPods-OurQuanmin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A79B52FC070A6CE433B8488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A65C16927A2F69AAA92EC00C /* libPods-OurQuanmin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C5AC0C1A4394A14100FD7A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FF8B2CC0B67E6810267FAF1 /* Pods-OurQuanmin.debug.xcconfig */,
+				F143EE4CFB70F8BB959925ED /* Pods-OurQuanmin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		629F6D931D1BDD3900D752C1 = {
+			isa = PBXGroup;
+			children = (
+				629F6DEE1D1BE0B500D752C1 /* Podfile */,
+				629F6D9E1D1BDD3900D752C1 /* OurQuanmin */,
+				629F6D9D1D1BDD3900D752C1 /* Products */,
+				3C5AC0C1A4394A14100FD7A7 /* Pods */,
+				1A79B52FC070A6CE433B8488 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		629F6D9D1D1BDD3900D752C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				629F6D9C1D1BDD3900D752C1 /* OurQuanmin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		629F6D9E1D1BDD3900D752C1 /* OurQuanmin */ = {
+			isa = PBXGroup;
+			children = (
+				629F6DC41D1BDFC700D752C1 /* Column(栏目) */,
+				629F6DCA1D1BDFC700D752C1 /* Home(首页) */,
+				629F6DD01D1BDFC700D752C1 /* LiveTV(直播) */,
+				629F6DD61D1BDFC700D752C1 /* main */,
+				629F6DDD1D1BDFC700D752C1 /* User(我的) */,
+			);
+			path = OurQuanmin;
+			sourceTree = "<group>";
+		};
+		629F6D9F1D1BDD3900D752C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				629F6DD91D1BDFC700D752C1 /* Info.plist */,
+				629F6DAB1D1BDD3900D752C1 /* Assets.xcassets */,
+				629F6E111D1C079100D752C1 /* images */,
+				629F6DDB1D1BDFC700D752C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		629F6DC41D1BDFC700D752C1 /* Column(栏目) */ = {
+			isa = PBXGroup;
+			children = (
+				629F6DC51D1BDFC700D752C1 /* Controller */,
+				629F6DC81D1BDFC700D752C1 /* Model */,
+				629F6DC91D1BDFC700D752C1 /* View */,
+			);
+			path = "Column(栏目)";
+			sourceTree = "<group>";
+		};
+		629F6DC51D1BDFC700D752C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				629F6E041D1C021B00D752C1 /* ColumnViewController.h */,
+				629F6E051D1C021B00D752C1 /* ColumnViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		629F6DC81D1BDFC700D752C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		629F6DC91D1BDFC700D752C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		629F6DCA1D1BDFC700D752C1 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				629F6DCB1D1BDFC700D752C1 /* Controller */,
+				629F6DCE1D1BDFC700D752C1 /* Model */,
+				629F6DCF1D1BDFC700D752C1 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		629F6DCB1D1BDFC700D752C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				629F6DCC1D1BDFC700D752C1 /* HomeViewController.h */,
+				629F6DCD1D1BDFC700D752C1 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		629F6DCE1D1BDFC700D752C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		629F6DCF1D1BDFC700D752C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		629F6DD01D1BDFC700D752C1 /* LiveTV(直播) */ = {
+			isa = PBXGroup;
+			children = (
+				629F6DD11D1BDFC700D752C1 /* Controller */,
+				629F6DD41D1BDFC700D752C1 /* Model */,
+				629F6DD51D1BDFC700D752C1 /* View */,
+			);
+			path = "LiveTV(直播)";
+			sourceTree = "<group>";
+		};
+		629F6DD11D1BDFC700D752C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				629F6E011D1C01F800D752C1 /* LiveTVViewController.h */,
+				629F6E021D1C01F800D752C1 /* LiveTVViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		629F6DD41D1BDFC700D752C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		629F6DD51D1BDFC700D752C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		629F6DD61D1BDFC700D752C1 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				629F6DD71D1BDFC700D752C1 /* AppDelegate.h */,
+				629F6DD81D1BDFC700D752C1 /* AppDelegate.m */,
+				629F6DAD1D1BDD3900D752C1 /* LaunchScreen.storyboard */,
+				629F6DF91D1BE42000D752C1 /* Controller */,
+				629F6DFC1D1BE42000D752C1 /* Model */,
+				629F6DFD1D1BE42000D752C1 /* View */,
+				629F6D9F1D1BDD3900D752C1 /* Supporting Files */,
+				629F6DDA1D1BDFC700D752C1 /* other */,
+				629F6DDC1D1BDFC700D752C1 /* Utils */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		629F6DDA1D1BDFC700D752C1 /* other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		629F6DDC1D1BDFC700D752C1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		629F6DDD1D1BDFC700D752C1 /* User(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				629F6DDE1D1BDFC700D752C1 /* Controller */,
+				629F6DE21D1BDFC700D752C1 /* Model */,
+				629F6DE31D1BDFC700D752C1 /* View */,
+			);
+			path = "User(我的)";
+			sourceTree = "<group>";
+		};
+		629F6DDE1D1BDFC700D752C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				629F6DDF1D1BDFC700D752C1 /* UserInfoTableViewController.h */,
+				629F6DE01D1BDFC700D752C1 /* UserInfoTableViewController.m */,
+				629F6DE11D1BDFC700D752C1 /* UserInfoTableViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		629F6DE21D1BDFC700D752C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		629F6DE31D1BDFC700D752C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		629F6DF91D1BE42000D752C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				629F6DFA1D1BE42000D752C1 /* MainTabBarViewController.h */,
+				629F6DFB1D1BE42000D752C1 /* MainTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		629F6DFC1D1BE42000D752C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		629F6DFD1D1BE42000D752C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				629F6E181D1C081E00D752C1 /* QuanminTabbar.h */,
+				629F6E191D1C081E00D752C1 /* QuanminTabbar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		629F6E111D1C079100D752C1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				629F6E121D1C079100D752C1 /* home@2x.png */,
+				629F6E131D1C079100D752C1 /* mic@2x.png */,
+				629F6E141D1C079100D752C1 /* setting_hg@2x.png */,
+			);
+			name = images;
+			path = main/View/images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		629F6D9B1D1BDD3900D752C1 /* OurQuanmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629F6DB31D1BDD3900D752C1 /* Build configuration list for PBXNativeTarget "OurQuanmin" */;
+			buildPhases = (
+				E1D45C95C507C1B54D8845F1 /* [CP] Check Pods Manifest.lock */,
+				629F6D981D1BDD3900D752C1 /* Sources */,
+				629F6D991D1BDD3900D752C1 /* Frameworks */,
+				629F6D9A1D1BDD3900D752C1 /* Resources */,
+				F41EAA3EFE868F7E29B50249 /* [CP] Embed Pods Frameworks */,
+				51E292ECB560BC94EDEAD1AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OurQuanmin;
+			productName = OurQuanmin;
+			productReference = 629F6D9C1D1BDD3900D752C1 /* OurQuanmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		629F6D941D1BDD3900D752C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					629F6D9B1D1BDD3900D752C1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 629F6D971D1BDD3900D752C1 /* Build configuration list for PBXProject "OurQuanmin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 629F6D931D1BDD3900D752C1;
+			productRefGroup = 629F6D9D1D1BDD3900D752C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				629F6D9B1D1BDD3900D752C1 /* OurQuanmin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		629F6D9A1D1BDD3900D752C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629F6DEF1D1BE0B500D752C1 /* Podfile in Resources */,
+				629F6E161D1C079100D752C1 /* mic@2x.png in Resources */,
+				629F6E171D1C079100D752C1 /* setting_hg@2x.png in Resources */,
+				629F6DAF1D1BDD3900D752C1 /* LaunchScreen.storyboard in Resources */,
+				629F6DAC1D1BDD3900D752C1 /* Assets.xcassets in Resources */,
+				629F6DEB1D1BDFC700D752C1 /* UserInfoTableViewController.xib in Resources */,
+				629F6DE81D1BDFC700D752C1 /* Info.plist in Resources */,
+				629F6E151D1C079100D752C1 /* home@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51E292ECB560BC94EDEAD1AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OurQuanmin/Pods-OurQuanmin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D45C95C507C1B54D8845F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F41EAA3EFE868F7E29B50249 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OurQuanmin/Pods-OurQuanmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		629F6D981D1BDD3900D752C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629F6E031D1C01F800D752C1 /* LiveTVViewController.m in Sources */,
+				629F6DFE1D1BE42000D752C1 /* MainTabBarViewController.m in Sources */,
+				629F6DE51D1BDFC700D752C1 /* HomeViewController.m in Sources */,
+				629F6DE91D1BDFC700D752C1 /* main.m in Sources */,
+				629F6E061D1C021B00D752C1 /* ColumnViewController.m in Sources */,
+				629F6DE71D1BDFC700D752C1 /* AppDelegate.m in Sources */,
+				629F6DEA1D1BDFC700D752C1 /* UserInfoTableViewController.m in Sources */,
+				629F6E1A1D1C081E00D752C1 /* QuanminTabbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		629F6DAD1D1BDD3900D752C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629F6DAE1D1BDD3900D752C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		629F6DB11D1BDD3900D752C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		629F6DB21D1BDD3900D752C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		629F6DB41D1BDD3900D752C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF8B2CC0B67E6810267FAF1 /* Pods-OurQuanmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/OurQuanmin/main/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.OurQuanmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		629F6DB51D1BDD3900D752C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F143EE4CFB70F8BB959925ED /* Pods-OurQuanmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/OurQuanmin/main/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.OurQuanmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		629F6D971D1BDD3900D752C1 /* Build configuration list for PBXProject "OurQuanmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629F6DB11D1BDD3900D752C1 /* Debug */,
+				629F6DB21D1BDD3900D752C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629F6DB31D1BDD3900D752C1 /* Build configuration list for PBXNativeTarget "OurQuanmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629F6DB41D1BDD3900D752C1 /* Debug */,
+				629F6DB51D1BDD3900D752C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 629F6D941D1BDD3900D752C1 /* Project object */;
+}
