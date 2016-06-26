@@ -7,18 +7,22 @@
 //
 
 #import "ColumnViewController.h"
+#import "WebUtils.h"
 
 @interface ColumnViewController ()
-
+@property (nonatomic,strong)NSArray *allCategories;
 @end
 
 @implementation ColumnViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [WebUtils requestColumnAndCallback:^(id obj) {
+        self.allCategories = obj;
+    }];
+    
+    
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

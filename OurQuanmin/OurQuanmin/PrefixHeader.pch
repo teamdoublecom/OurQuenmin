@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  OurQuanmin
+//
+//  Created by 陈文鹏 on 16/6/26.
+//  Copyright © 2016年 tarena. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIImageView+AFNetworking.h>
+
+
+#define kScreenWidth self.view.frame.size.width
+#define kScreenHeight self.view.frame.size.height
+#define kMargin 8
+
+
+#endif /* PrefixHeader_pch */

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6271E3121D1F7F40009FBE8B /* WebUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6271E3111D1F7F40009FBE8B /* WebUtils.m */; };
+		6271E3151D1F8054009FBE8B /* Anchor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6271E3141D1F8054009FBE8B /* Anchor.m */; };
+		6271E3181D1F82B5009FBE8B /* APPFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 6271E3171D1F82B5009FBE8B /* APPFocus.m */; };
+		6271E31B1D1F896B009FBE8B /* GameCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 6271E31A1D1F896B009FBE8B /* GameCategories.m */; };
 		629F6DAC1D1BDD3900D752C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629F6DAB1D1BDD3900D752C1 /* Assets.xcassets */; };
 		629F6DAF1D1BDD3900D752C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629F6DAD1D1BDD3900D752C1 /* LaunchScreen.storyboard */; };
 		629F6DE51D1BDFC700D752C1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6DCD1D1BDFC700D752C1 /* HomeViewController.m */; };
@@ -27,6 +31,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6271E3101D1F7F40009FBE8B /* WebUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebUtils.h; sourceTree = "<group>"; };
+		6271E3111D1F7F40009FBE8B /* WebUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebUtils.m; sourceTree = "<group>"; };
+		6271E3131D1F8054009FBE8B /* Anchor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Anchor.h; path = OurQuanmin/main/Utils/Anchor.h; sourceTree = SOURCE_ROOT; };
+		6271E3141D1F8054009FBE8B /* Anchor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Anchor.m; path = OurQuanmin/main/Utils/Anchor.m; sourceTree = SOURCE_ROOT; };
+		6271E3161D1F82B5009FBE8B /* APPFocus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APPFocus.h; path = OurQuanmin/main/Utils/APPFocus.h; sourceTree = SOURCE_ROOT; };
+		6271E3171D1F82B5009FBE8B /* APPFocus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APPFocus.m; path = OurQuanmin/main/Utils/APPFocus.m; sourceTree = SOURCE_ROOT; };
+		6271E3191D1F896B009FBE8B /* GameCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameCategories.h; path = OurQuanmin/main/Utils/GameCategories.h; sourceTree = SOURCE_ROOT; };
+		6271E31A1D1F896B009FBE8B /* GameCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameCategories.m; path = OurQuanmin/main/Utils/GameCategories.m; sourceTree = SOURCE_ROOT; };
+		6271E31C1D1F9506009FBE8B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		629F6D9C1D1BDD3900D752C1 /* OurQuanmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurQuanmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		629F6DAB1D1BDD3900D752C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		629F6DAE1D1BDD3900D752C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -85,6 +98,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6271E30F1D1F7F40009FBE8B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6271E3101D1F7F40009FBE8B /* WebUtils.h */,
+				6271E3111D1F7F40009FBE8B /* WebUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		629F6D931D1BDD3900D752C1 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +145,7 @@
 				629F6DAB1D1BDD3900D752C1 /* Assets.xcassets */,
 				629F6E111D1C079100D752C1 /* images */,
 				629F6DDB1D1BDFC700D752C1 /* main.m */,
+				6271E31C1D1F9506009FBE8B /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			path = ..;
@@ -150,6 +173,8 @@
 		629F6DC81D1BDFC700D752C1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6271E3191D1F896B009FBE8B /* GameCategories.h */,
+				6271E31A1D1F896B009FBE8B /* GameCategories.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +208,10 @@
 		629F6DCE1D1BDFC700D752C1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6271E3131D1F8054009FBE8B /* Anchor.h */,
+				6271E3141D1F8054009FBE8B /* Anchor.m */,
+				6271E3161D1F82B5009FBE8B /* APPFocus.h */,
+				6271E3171D1F82B5009FBE8B /* APPFocus.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -236,9 +265,9 @@
 				629F6DF91D1BE42000D752C1 /* Controller */,
 				629F6DFC1D1BE42000D752C1 /* Model */,
 				629F6DFD1D1BE42000D752C1 /* View */,
+				6271E30F1D1F7F40009FBE8B /* Utils */,
 				629F6D9F1D1BDD3900D752C1 /* Supporting Files */,
 				629F6DDA1D1BDFC700D752C1 /* other */,
-				629F6DDC1D1BDFC700D752C1 /* Utils */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -248,13 +277,6 @@
 			children = (
 			);
 			path = other;
-			sourceTree = "<group>";
-		};
-		629F6DDC1D1BDFC700D752C1 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		629F6DDD1D1BDFC700D752C1 /* User(我的) */ = {
@@ -456,10 +478,14 @@
 				629F6E031D1C01F800D752C1 /* LiveTVViewController.m in Sources */,
 				629F6DFE1D1BE42000D752C1 /* MainTabBarViewController.m in Sources */,
 				629F6DE51D1BDFC700D752C1 /* HomeViewController.m in Sources */,
+				6271E31B1D1F896B009FBE8B /* GameCategories.m in Sources */,
+				6271E3121D1F7F40009FBE8B /* WebUtils.m in Sources */,
+				6271E3151D1F8054009FBE8B /* Anchor.m in Sources */,
 				629F6DE91D1BDFC700D752C1 /* main.m in Sources */,
 				629F6E061D1C021B00D752C1 /* ColumnViewController.m in Sources */,
 				629F6DE71D1BDFC700D752C1 /* AppDelegate.m in Sources */,
 				629F6DEA1D1BDFC700D752C1 /* UserInfoTableViewController.m in Sources */,
+				6271E3181D1F82B5009FBE8B /* APPFocus.m in Sources */,
 				629F6E1A1D1C081E00D752C1 /* QuanminTabbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,6 +590,7 @@
 			baseConfigurationReference = 8FF8B2CC0B67E6810267FAF1 /* Pods-OurQuanmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OurQuanmin/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/OurQuanmin/main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.OurQuanmin;
@@ -576,6 +603,7 @@
 			baseConfigurationReference = F143EE4CFB70F8BB959925ED /* Pods-OurQuanmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OurQuanmin/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/OurQuanmin/main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.OurQuanmin;
