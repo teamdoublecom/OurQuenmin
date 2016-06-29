@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <JSONModel.h>
 
-@interface GameCategories : JSONModel
+@interface GameCategorie : JSONModel
 @property (nonatomic,copy)NSString *Categories_id;
 @property (nonatomic,copy)NSString *name;
 @property (nonatomic,copy)NSString *slug;

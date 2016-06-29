@@ -15,6 +15,6 @@
 @property (nonatomic,copy)NSString *title;
 @property (nonatomic,copy)NSString *thumb;
 
-@property (nonatomic,strong)Anchor *achor;
+@property (nonatomic,strong)Anchor<Optional> *achor;
 
 @end

@@ -6,9 +6,9 @@
 //  Copyright © 2016年 tarena. All rights reserved.
 //
 
-#import "GameCategories.h"
+#import "GameCategorie.h"
 
-@implementation GameCategories
+@implementation GameCategorie
 + (JSONKeyMapper *)keyMapper
 {
     return [[JSONKeyMapper alloc]initWithDictionary:@{@"id":@"Categories_id",@"image":@"imageUrl",@"thumb":@"thumbUrl"}];

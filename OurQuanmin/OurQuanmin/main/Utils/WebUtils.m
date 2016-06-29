@@ -9,7 +9,7 @@
 #import "WebUtils.h"
 #import <AFNetworking.h>
 #import "APPFocus.h"
-#import "GameCategories.h"
+#import "GameCategorie.h"
 
 @implementation WebUtils
 + (void)requestHomePageAndCallback:(CallBack)callBack
@@ -21,7 +21,7 @@
     
     [manager GET:path parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:nil];
-        NSArray *arrData = dic[@"ios-focus"];
+        NSArray *arrData = dic[@"app-focus"];
         
         NSArray *allFocus = [APPFocus arrayOfModelsFromDictionaries:arrData error:nil];
         
@@ -42,9 +42,30 @@
         
         NSArray *arrData = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:nil];
         
-        NSArray *allCategories = [GameCategories arrayOfModelsFromDictionaries:arrData error:nil];
+        NSArray *allCategories = [GameCategorie arrayOfModelsFromDictionaries:arrData error:nil];
         
         callBack(allCategories);
+        
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        NSLog(@"数据返回失败.");
+    }];
+}
++ (void)requestColumnAnchorsWithSlug:(NSString *)slug andCallback:(CallBack)callBack
+{
+    NSString *path = [NSString stringWithFormat:@"http://www.quanmin.tv/json/categories/%@/list.json",slug];
+    
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    
+    [manager GET:path parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
+        NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:nil];
+        
+        NSArray *arrData = dic[@"data"];
+        
+        NSArray *allAnchor = [Anchor arrayOfModelsFromDictionaries:arrData error:nil];
+        
+        callBack(allAnchor);
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"数据返回失败.");

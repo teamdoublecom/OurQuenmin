@@ -12,4 +12,5 @@ typedef void(^CallBack)(id obj);
 @interface WebUtils : NSObject
 + (void)requestHomePageAndCallback:(CallBack)callBack;
 + (void)requestColumnAndCallback:(CallBack)callBack;
++ (void)requestColumnAnchorsWithSlug:(NSString *)slug andCallback:(CallBack)callBack;
 @end
