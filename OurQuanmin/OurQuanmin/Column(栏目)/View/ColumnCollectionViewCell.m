@@ -17,6 +17,7 @@
 @implementation ColumnCollectionViewCell
 - (void)setCategorie:(GameCategorie *)categorie
 {
+    //
     _categorie = categorie;
     
     self.titleLB.text = categorie.name;
