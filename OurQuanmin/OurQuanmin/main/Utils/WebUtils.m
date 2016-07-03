@@ -71,4 +71,16 @@
         NSLog(@"数据返回失败.");
     }];
 }
++ (void)requestHomePageColumnAnchorsAndCallback:(CallBack)callBack
+{
+    NSArray *slugs = @[@"lol",@"beauty",@"heartstone",@"huwai",@"overwatch",@"dota2",@"tvgame",@"blizzard",@"sport",@"webgame",@"dnf",@"minecraft"];
+    
+    NSMutableDictionary *allData = [NSMutableDictionary dictionary];
+    for (NSString *slug in slugs) {
+        [WebUtils requestColumnAnchorsWithSlug:slug andCallback:^(id obj) {
+            [allData setObject:obj forKey:slug];
+            callBack(allData);
+        }];
+    }
+}
 @end

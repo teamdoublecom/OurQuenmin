@@ -11,7 +11,6 @@
 @interface ColumnCollectionViewCell()
 @property (weak, nonatomic) IBOutlet UIImageView *thumbIV;
 @property (weak, nonatomic) IBOutlet UILabel *titleLB;
-
 @end
 
 @implementation ColumnCollectionViewCell
