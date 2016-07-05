@@ -8,7 +8,7 @@
 
 #import "MainTabBarViewController.h"
 #import "HomeViewController.h"
-#import "UserInfoTableViewController.h"
+#import "UserInfoViewController.h"
 #import "LiveTVViewController.h"
 #import "ColumnViewController.h"
 #import "QuanminTabbar.h"
@@ -31,7 +31,7 @@
     LiveTVViewController *livetvVC = [LiveTVViewController new];
     livetvVC.view.backgroundColor = [UIColor whiteColor];
     livetvVC.title = @"直播";
-    UserInfoTableViewController *userVC = [UserInfoTableViewController new];
+    UserInfoViewController *userVC = [UserInfoViewController new];
     userVC.title = @"我的";
     
     self.viewControllers = @[
@@ -41,8 +41,10 @@
                              [[UINavigationController alloc]initWithRootViewController:userVC],
                             ];
     //设置tabbar图片
-    homeVC.tabBarItem.image = [UIImage imageNamed:@"home.png"];
-    
+    homeVC.tabBarItem.image = [UIImage imageNamed:@"14"];
+    columnVC.tabBarItem.image = [UIImage imageNamed:@"13"];
+    livetvVC.tabBarItem.image = [UIImage imageNamed:@"12"];
+    userVC.tabBarItem.image = [UIImage imageNamed:@"11"];
     //自定义Tabbar
     QuanminTabbar *tabbar = [[QuanminTabbar alloc]initWithFrame:self.tabBar.frame];
     [self setValue:tabbar forKey:@"tabBar"];

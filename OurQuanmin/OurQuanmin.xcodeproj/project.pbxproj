@@ -29,8 +29,6 @@
 		629F6DE71D1BDFC700D752C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6DD81D1BDFC700D752C1 /* AppDelegate.m */; };
 		629F6DE81D1BDFC700D752C1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 629F6DD91D1BDFC700D752C1 /* Info.plist */; };
 		629F6DE91D1BDFC700D752C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6DDB1D1BDFC700D752C1 /* main.m */; };
-		629F6DEA1D1BDFC700D752C1 /* UserInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6DE01D1BDFC700D752C1 /* UserInfoTableViewController.m */; };
-		629F6DEB1D1BDFC700D752C1 /* UserInfoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 629F6DE11D1BDFC700D752C1 /* UserInfoTableViewController.xib */; };
 		629F6DEF1D1BE0B500D752C1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 629F6DEE1D1BE0B500D752C1 /* Podfile */; };
 		629F6DFE1D1BE42000D752C1 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6DFB1D1BE42000D752C1 /* MainTabBarViewController.m */; };
 		629F6E031D1C01F800D752C1 /* LiveTVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6E021D1C01F800D752C1 /* LiveTVViewController.m */; };
@@ -38,6 +36,21 @@
 		629F6E161D1C079100D752C1 /* mic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 629F6E131D1C079100D752C1 /* mic@2x.png */; };
 		629F6E171D1C079100D752C1 /* setting_hg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 629F6E141D1C079100D752C1 /* setting_hg@2x.png */; };
 		629F6E1A1D1C081E00D752C1 /* QuanminTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F6E191D1C081E00D752C1 /* QuanminTabbar.m */; };
+		6A563BBF1D2BA8E000D7AC63 /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BAC1D2BA8E000D7AC63 /* FeedbackViewController.m */; };
+		6A563BC01D2BA8E000D7AC63 /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BAD1D2BA8E000D7AC63 /* FeedbackViewController.xib */; };
+		6A563BC11D2BA8E000D7AC63 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BAF1D2BA8E000D7AC63 /* LoginViewController.m */; };
+		6A563BC21D2BA8E000D7AC63 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BB01D2BA8E000D7AC63 /* LoginViewController.xib */; };
+		6A563BC31D2BA8E000D7AC63 /* RechargeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BB21D2BA8E000D7AC63 /* RechargeTableViewController.m */; };
+		6A563BC41D2BA8E000D7AC63 /* RechargeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BB31D2BA8E000D7AC63 /* RechargeTableViewController.xib */; };
+		6A563BC51D2BA8E000D7AC63 /* RegisterActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BB51D2BA8E000D7AC63 /* RegisterActionViewController.m */; };
+		6A563BC61D2BA8E000D7AC63 /* RegisterActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BB61D2BA8E000D7AC63 /* RegisterActionViewController.xib */; };
+		6A563BC71D2BA8E000D7AC63 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BB81D2BA8E000D7AC63 /* SettingsViewController.m */; };
+		6A563BC81D2BA8E000D7AC63 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BB91D2BA8E000D7AC63 /* SettingsViewController.xib */; };
+		6A563BC91D2BA8E000D7AC63 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BBB1D2BA8E000D7AC63 /* UIView+Toast.m */; };
+		6A563BCA1D2BA8E000D7AC63 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BBD1D2BA8E000D7AC63 /* UserInfoViewController.m */; };
+		6A563BCB1D2BA8E000D7AC63 /* UserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BBE1D2BA8E000D7AC63 /* UserInfoViewController.xib */; };
+		6A563BD61D2BA95000D7AC63 /* SectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BD41D2BA95000D7AC63 /* SectionHeadView.m */; };
+		6A563BD71D2BA95000D7AC63 /* SectionHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BD51D2BA95000D7AC63 /* SectionHeadView.xib */; };
 		99918DE2D59F2E6D1A5EF478 /* libPods-OurQuanmin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A65C16927A2F69AAA92EC00C /* libPods-OurQuanmin.a */; };
 /* End PBXBuildFile section */
 
@@ -78,9 +91,6 @@
 		629F6DD81D1BDFC700D752C1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		629F6DD91D1BDFC700D752C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = main/Info.plist; sourceTree = "<group>"; };
 		629F6DDB1D1BDFC700D752C1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = main/other/main.m; sourceTree = "<group>"; };
-		629F6DDF1D1BDFC700D752C1 /* UserInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoTableViewController.h; sourceTree = "<group>"; };
-		629F6DE01D1BDFC700D752C1 /* UserInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoTableViewController.m; sourceTree = "<group>"; };
-		629F6DE11D1BDFC700D752C1 /* UserInfoTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoTableViewController.xib; sourceTree = "<group>"; };
 		629F6DEE1D1BE0B500D752C1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		629F6DFA1D1BE42000D752C1 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
 		629F6DFB1D1BE42000D752C1 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
@@ -91,6 +101,29 @@
 		629F6E141D1C079100D752C1 /* setting_hg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_hg@2x.png"; sourceTree = "<group>"; };
 		629F6E181D1C081E00D752C1 /* QuanminTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuanminTabbar.h; sourceTree = "<group>"; };
 		629F6E191D1C081E00D752C1 /* QuanminTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuanminTabbar.m; sourceTree = "<group>"; };
+		6A563BAB1D2BA8E000D7AC63 /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		6A563BAC1D2BA8E000D7AC63 /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+		6A563BAD1D2BA8E000D7AC63 /* FeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedbackViewController.xib; sourceTree = "<group>"; };
+		6A563BAE1D2BA8E000D7AC63 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6A563BAF1D2BA8E000D7AC63 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6A563BB01D2BA8E000D7AC63 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		6A563BB11D2BA8E000D7AC63 /* RechargeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechargeTableViewController.h; sourceTree = "<group>"; };
+		6A563BB21D2BA8E000D7AC63 /* RechargeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechargeTableViewController.m; sourceTree = "<group>"; };
+		6A563BB31D2BA8E000D7AC63 /* RechargeTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RechargeTableViewController.xib; sourceTree = "<group>"; };
+		6A563BB41D2BA8E000D7AC63 /* RegisterActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterActionViewController.h; sourceTree = "<group>"; };
+		6A563BB51D2BA8E000D7AC63 /* RegisterActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterActionViewController.m; sourceTree = "<group>"; };
+		6A563BB61D2BA8E000D7AC63 /* RegisterActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterActionViewController.xib; sourceTree = "<group>"; };
+		6A563BB71D2BA8E000D7AC63 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		6A563BB81D2BA8E000D7AC63 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		6A563BB91D2BA8E000D7AC63 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		6A563BBA1D2BA8E000D7AC63 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		6A563BBB1D2BA8E000D7AC63 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		6A563BBC1D2BA8E000D7AC63 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		6A563BBD1D2BA8E000D7AC63 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		6A563BBE1D2BA8E000D7AC63 /* UserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoViewController.xib; sourceTree = "<group>"; };
+		6A563BD31D2BA95000D7AC63 /* SectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeadView.h; sourceTree = "<group>"; };
+		6A563BD41D2BA95000D7AC63 /* SectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeadView.m; sourceTree = "<group>"; };
+		6A563BD51D2BA95000D7AC63 /* SectionHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeadView.xib; sourceTree = "<group>"; };
 		8FF8B2CC0B67E6810267FAF1 /* Pods-OurQuanmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurQuanmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OurQuanmin/Pods-OurQuanmin.debug.xcconfig"; sourceTree = "<group>"; };
 		A65C16927A2F69AAA92EC00C /* libPods-OurQuanmin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OurQuanmin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F143EE4CFB70F8BB959925ED /* Pods-OurQuanmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurQuanmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-OurQuanmin/Pods-OurQuanmin.release.xcconfig"; sourceTree = "<group>"; };
@@ -318,8 +351,8 @@
 			isa = PBXGroup;
 			children = (
 				629F6DDE1D1BDFC700D752C1 /* Controller */,
-				629F6DE21D1BDFC700D752C1 /* Model */,
-				629F6DE31D1BDFC700D752C1 /* View */,
+				6A563BD21D2BA91F00D7AC63 /* Model */,
+				6A563BD11D2BA91C00D7AC63 /* View */,
 			);
 			path = "User(我的)";
 			sourceTree = "<group>";
@@ -327,25 +360,28 @@
 		629F6DDE1D1BDFC700D752C1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				629F6DDF1D1BDFC700D752C1 /* UserInfoTableViewController.h */,
-				629F6DE01D1BDFC700D752C1 /* UserInfoTableViewController.m */,
-				629F6DE11D1BDFC700D752C1 /* UserInfoTableViewController.xib */,
+				6A563BAB1D2BA8E000D7AC63 /* FeedbackViewController.h */,
+				6A563BAC1D2BA8E000D7AC63 /* FeedbackViewController.m */,
+				6A563BAD1D2BA8E000D7AC63 /* FeedbackViewController.xib */,
+				6A563BAE1D2BA8E000D7AC63 /* LoginViewController.h */,
+				6A563BAF1D2BA8E000D7AC63 /* LoginViewController.m */,
+				6A563BB01D2BA8E000D7AC63 /* LoginViewController.xib */,
+				6A563BB11D2BA8E000D7AC63 /* RechargeTableViewController.h */,
+				6A563BB21D2BA8E000D7AC63 /* RechargeTableViewController.m */,
+				6A563BB31D2BA8E000D7AC63 /* RechargeTableViewController.xib */,
+				6A563BB41D2BA8E000D7AC63 /* RegisterActionViewController.h */,
+				6A563BB51D2BA8E000D7AC63 /* RegisterActionViewController.m */,
+				6A563BB61D2BA8E000D7AC63 /* RegisterActionViewController.xib */,
+				6A563BB71D2BA8E000D7AC63 /* SettingsViewController.h */,
+				6A563BB81D2BA8E000D7AC63 /* SettingsViewController.m */,
+				6A563BB91D2BA8E000D7AC63 /* SettingsViewController.xib */,
+				6A563BBA1D2BA8E000D7AC63 /* UIView+Toast.h */,
+				6A563BBB1D2BA8E000D7AC63 /* UIView+Toast.m */,
+				6A563BBC1D2BA8E000D7AC63 /* UserInfoViewController.h */,
+				6A563BBD1D2BA8E000D7AC63 /* UserInfoViewController.m */,
+				6A563BBE1D2BA8E000D7AC63 /* UserInfoViewController.xib */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		629F6DE21D1BDFC700D752C1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		629F6DE31D1BDFC700D752C1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		629F6DF91D1BE42000D752C1 /* Controller */ = {
@@ -390,6 +426,25 @@
 			);
 			name = images;
 			path = main/View/images;
+			sourceTree = "<group>";
+		};
+		6A563BD11D2BA91C00D7AC63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A563BD31D2BA95000D7AC63 /* SectionHeadView.h */,
+				6A563BD41D2BA95000D7AC63 /* SectionHeadView.m */,
+				6A563BD51D2BA95000D7AC63 /* SectionHeadView.xib */,
+			);
+			name = View;
+			path = Controller/View;
+			sourceTree = "<group>";
+		};
+		6A563BD21D2BA91F00D7AC63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = Controller/Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,16 +508,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				622783851D23EF91002C0956 /* anchor.jpg in Resources */,
+				6A563BCB1D2BA8E000D7AC63 /* UserInfoViewController.xib in Resources */,
+				6A563BC81D2BA8E000D7AC63 /* SettingsViewController.xib in Resources */,
 				6205CB0B1D22BEB400034262 /* ColumnCollectionViewCell.xib in Resources */,
 				629F6DEF1D1BE0B500D752C1 /* Podfile in Resources */,
 				622783871D23F088002C0956 /* avatar.jpeg in Resources */,
+				6A563BD71D2BA95000D7AC63 /* SectionHeadView.xib in Resources */,
 				622783831D23EE3F002C0956 /* AnchorCollectionViewCell.xib in Resources */,
+				6A563BC21D2BA8E000D7AC63 /* LoginViewController.xib in Resources */,
 				629F6E161D1C079100D752C1 /* mic@2x.png in Resources */,
 				629F6E171D1C079100D752C1 /* setting_hg@2x.png in Resources */,
+				6A563BC41D2BA8E000D7AC63 /* RechargeTableViewController.xib in Resources */,
+				6A563BC01D2BA8E000D7AC63 /* FeedbackViewController.xib in Resources */,
 				6205CB0F1D22BFE600034262 /* huwai.png in Resources */,
 				629F6DAF1D1BDD3900D752C1 /* LaunchScreen.storyboard in Resources */,
 				629F6DAC1D1BDD3900D752C1 /* Assets.xcassets in Resources */,
-				629F6DEB1D1BDFC700D752C1 /* UserInfoTableViewController.xib in Resources */,
+				6A563BC61D2BA8E000D7AC63 /* RegisterActionViewController.xib in Resources */,
 				629F6DE81D1BDFC700D752C1 /* Info.plist in Resources */,
 				628EABFB1D28E10800C61A4B /* more.jpg in Resources */,
 				629F6E151D1C079100D752C1 /* home@2x.png in Resources */,
@@ -527,8 +588,10 @@
 				622783821D23EE3F002C0956 /* AnchorCollectionViewCell.m in Sources */,
 				629F6E031D1C01F800D752C1 /* LiveTVViewController.m in Sources */,
 				6227837E1D23ED9F002C0956 /* ColumnDetailViewController.m in Sources */,
+				6A563BC51D2BA8E000D7AC63 /* RegisterActionViewController.m in Sources */,
 				629F6DFE1D1BE42000D752C1 /* MainTabBarViewController.m in Sources */,
 				6205CB011D22BE0700034262 /* APPFocus.m in Sources */,
+				6A563BC71D2BA8E000D7AC63 /* SettingsViewController.m in Sources */,
 				6205CB001D22BE0700034262 /* Anchor.m in Sources */,
 				6205CB061D22BEA000034262 /* ColumnViewController.m in Sources */,
 				629F6DE51D1BDFC700D752C1 /* HomeViewController.m in Sources */,
@@ -536,11 +599,16 @@
 				6205CA601D22BDA500034262 /* GameCategorie.m in Sources */,
 				629F6DE91D1BDFC700D752C1 /* main.m in Sources */,
 				628EAC021D2900B600C61A4B /* SlugsMatchUtils.m in Sources */,
+				6A563BD61D2BA95000D7AC63 /* SectionHeadView.m in Sources */,
 				6205CB0A1D22BEB400034262 /* ColumnCollectionViewCell.m in Sources */,
 				629F6DE71D1BDFC700D752C1 /* AppDelegate.m in Sources */,
+				6A563BC91D2BA8E000D7AC63 /* UIView+Toast.m in Sources */,
+				6A563BCA1D2BA8E000D7AC63 /* UserInfoViewController.m in Sources */,
+				6A563BC31D2BA8E000D7AC63 /* RechargeTableViewController.m in Sources */,
+				6A563BC11D2BA8E000D7AC63 /* LoginViewController.m in Sources */,
 				628EABFC1D28EC3700C61A4B /* WebUtils.m in Sources */,
-				629F6DEA1D1BDFC700D752C1 /* UserInfoTableViewController.m in Sources */,
 				629F6E1A1D1C081E00D752C1 /* QuanminTabbar.m in Sources */,
+				6A563BBF1D2BA8E000D7AC63 /* FeedbackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,18 +1,18 @@
 //
-//  UserInfoTableViewController.m
+//  RechargeTableViewController.m
 //  OurQuanmin
 //
-//  Created by 陈文鹏 on 16/6/23.
+//  Created by 王建峰 on 16/7/5.
 //  Copyright © 2016年 tarena. All rights reserved.
 //
 
-#import "UserInfoTableViewController.h"
+#import "RechargeTableViewController.h"
 
-@interface UserInfoTableViewController ()
+@interface RechargeTableViewController ()
 
 @end
 
-@implementation UserInfoTableViewController
+@implementation RechargeTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
