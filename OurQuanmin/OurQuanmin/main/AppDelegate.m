@@ -22,6 +22,11 @@
     self.window.rootViewController = [[MainTabBarViewController alloc]init];
     [self.window makeKeyAndVisible];
     
+    
+    //初始化bomb
+    [Bmob registerWithAppKey:@"你的key"];
+    
+    
     return YES;
 }
 

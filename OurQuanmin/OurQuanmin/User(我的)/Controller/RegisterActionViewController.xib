@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -7,6 +7,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterActionViewController">
             <connections>
+                <outlet property="AuthcodeTf" destination="pkC-TH-saU" id="EaT-er-IZI"/>
+                <outlet property="PNumberTf" destination="GxY-cu-FdD" id="d38-AA-6pX"/>
+                <outlet property="PwdTf" destination="RQ5-37-adR" id="xzh-cr-gxb"/>
+                <outlet property="nickTf" destination="zDa-A2-0dZ" id="0H7-li-uht"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -46,6 +50,9 @@
                     <state key="normal" title="注册">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="RegisterBtn:" destination="-1" eventType="touchUpInside" id="38H-q8-w5p"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V03-vE-M1G">
                     <rect key="frame" x="221" y="84" width="75" height="30"/>
@@ -54,6 +61,9 @@
                     <state key="normal" title="获取验证码">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="GetCode:" destination="-1" eventType="touchUpInside" id="cL8-5r-ON1"/>
+                    </connections>
                 </button>
             </subviews>
             <animations/>

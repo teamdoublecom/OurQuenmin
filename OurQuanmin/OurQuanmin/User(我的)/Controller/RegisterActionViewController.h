@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RegisterActionViewController : UIViewController
-
+@property(nonatomic,strong)BmobUser *user;
 @end

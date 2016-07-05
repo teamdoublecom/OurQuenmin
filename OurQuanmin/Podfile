@@ -4,4 +4,5 @@ target 'OurQuanmin' do
 pod 'AFNetworking', '~> 3.0'
 pod 'JSONModel'
 pod 'YYText'
+pod 'BmobSDK'
 end

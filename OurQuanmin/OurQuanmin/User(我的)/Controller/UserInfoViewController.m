@@ -11,6 +11,8 @@
 #import "FeedbackViewController.h"
 #import "SettingsTableViewController.h"
 #import "LoginViewController.h"
+#import "HousekeepingViewController.h"
+#import "MyWatchlistViewController.h"
 @interface UserInfoViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *headView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -149,9 +151,44 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    LoginViewController *vc = [LoginViewController new];
-    
-    [self.navigationController pushViewController:vc animated:YES];
+    //判断是否登录过
+    if ([BmobUser getCurrentUser])
+    {
+        switch (indexPath.row)
+        {
+            case 0:{
+             HousekeepingViewController *house = [HousekeepingViewController new];
+            
+                [self.navigationController pushViewController:house animated:YES];
+                
+                break;
+            }
+                
+                
+                case 1:
+            {
+                MyWatchlistViewController *my = [MyWatchlistViewController new];
+                [self.navigationController pushViewController:my animated:YES];
+            
+            
+            }
+            default:
+                break;
+        }
+        
+        
+        
+        
+    }else
+    {
+
+        LoginViewController *vc = [LoginViewController new];
+        
+        [self.navigationController pushViewController:vc animated:YES];
+        
+        
+    }
+
     
     
 }

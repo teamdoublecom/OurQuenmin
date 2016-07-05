@@ -8,11 +8,38 @@
 
 #import "LoginViewController.h"
 #import "RegisterActionViewController.h"
+#import "UserInfoViewController.h"
 @interface LoginViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *PwdTf;
+@property (weak, nonatomic) IBOutlet UITextField *UserTf;
 
 @end
 
 @implementation LoginViewController
+- (IBAction)LoginButton:(id)sender {
+    
+[BmobUser loginInbackgroundWithAccount:self.UserTf.text andPassword:self.PwdTf.text block:^(BmobUser *user, NSError *error) {
+   
+    if (error)
+    {
+        NSLog(@"登录失败");
+    }else if (!error)
+    {
+    
+        UserInfoViewController *vc = [UserInfoViewController new]
+        ;
+        [self.navigationController pushViewController:vc animated:YES];
+    
+    }
+    
+    
+}];
+
+    
+    
+}
+- (IBAction)ForgetPwd:(id)sender {
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -7,12 +7,79 @@
 //
 
 #import "RegisterActionViewController.h"
-
+#import "UserInfoViewController.h"
 @interface RegisterActionViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *PNumberTf;
+@property (weak, nonatomic) IBOutlet UITextField *AuthcodeTf;
+@property (weak, nonatomic) IBOutlet UITextField *nickTf;
+@property (weak, nonatomic) IBOutlet UITextField *PwdTf;
 
 @end
 
 @implementation RegisterActionViewController
+- (IBAction)RegisterBtn:(id)sender {
+    
+    self.user =[BmobUser new];
+    self.user.username =self.nickTf.text;
+
+    [BmobUser signOrLoginInbackgroundWithMobilePhoneNumber:self.PNumberTf.text SMSCode:self.AuthcodeTf.text andPassword:self.PwdTf.text block:^(BmobUser *user, NSError *error) {
+        
+        if (error)
+        {    NSLog(@"注册失败%@",error);
+            
+        }else if (!error)
+        {
+            UserInfoViewController *user = [UserInfoViewController new];
+            
+            [self.navigationController pushViewController:user animated:YES];
+        
+        }
+        
+    
+        
+        
+        
+        
+    
+    }];
+
+    
+////
+//    [BmobSMS verifySMSCodeInBackgroundWithPhoneNumber:self.PNumberTf.text andSMSCode:self.AuthcodeTf.text resultBlock:^(BOOL isSuccessful, NSError *error) {
+////       
+////        NSLog(@"%@",error);
+//        
+//    }];
+    
+//    [BmobUser signOrLoginInbackgroundWithMobilePhoneNumber:self.PNumberTf.text andSMSCode:self.AuthcodeTf.text block:^(BmobUser *user, NSError *error) {
+//       
+//        NSLog(@"注册失败:%@",error);
+//    }];
+//    
+    
+}
+- (IBAction)GetCode:(id)sender {
+
+    [BmobSMS requestSMSCodeInBackgroundWithPhoneNumber:self.PNumberTf.text andTemplate:@"全名TV" resultBlock:^(int number, NSError *error) {
+        if (error)
+        {
+            
+            NSLog(@"%@",error);
+            
+        }else
+        {
+    
+            
+            self.AuthcodeTf.text =@(number).stringValue;
+            
+            NSLog(@"获取成功");
+        }
+        
+        
+    }];
+    
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

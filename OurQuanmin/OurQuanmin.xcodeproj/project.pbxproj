@@ -51,6 +51,10 @@
 		6A563BD71D2BA95000D7AC63 /* SectionHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BD51D2BA95000D7AC63 /* SectionHeadView.xib */; };
 		6A563BDB1D2BB8C100D7AC63 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BD91D2BB8C100D7AC63 /* SettingsTableViewController.m */; };
 		6A563BDC1D2BB8C100D7AC63 /* SettingsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BDA1D2BB8C100D7AC63 /* SettingsTableViewController.xib */; };
+		85DCBEE01D2BD470006B1837 /* HousekeepingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DCBEDE1D2BD470006B1837 /* HousekeepingViewController.m */; };
+		85DCBEE11D2BD470006B1837 /* HousekeepingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DCBEDF1D2BD470006B1837 /* HousekeepingViewController.xib */; };
+		85DCBEE51D2BE67B006B1837 /* MyWatchlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DCBEE31D2BE67B006B1837 /* MyWatchlistViewController.m */; };
+		85DCBEE61D2BE67B006B1837 /* MyWatchlistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DCBEE41D2BE67B006B1837 /* MyWatchlistViewController.xib */; };
 		99918DE2D59F2E6D1A5EF478 /* libPods-OurQuanmin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A65C16927A2F69AAA92EC00C /* libPods-OurQuanmin.a */; };
 /* End PBXBuildFile section */
 
@@ -124,6 +128,12 @@
 		6A563BD81D2BB8C100D7AC63 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
 		6A563BD91D2BB8C100D7AC63 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
 		6A563BDA1D2BB8C100D7AC63 /* SettingsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsTableViewController.xib; sourceTree = "<group>"; };
+		85DCBEDD1D2BD470006B1837 /* HousekeepingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HousekeepingViewController.h; sourceTree = "<group>"; };
+		85DCBEDE1D2BD470006B1837 /* HousekeepingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HousekeepingViewController.m; sourceTree = "<group>"; };
+		85DCBEDF1D2BD470006B1837 /* HousekeepingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HousekeepingViewController.xib; sourceTree = "<group>"; };
+		85DCBEE21D2BE67B006B1837 /* MyWatchlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWatchlistViewController.h; sourceTree = "<group>"; };
+		85DCBEE31D2BE67B006B1837 /* MyWatchlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWatchlistViewController.m; sourceTree = "<group>"; };
+		85DCBEE41D2BE67B006B1837 /* MyWatchlistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWatchlistViewController.xib; sourceTree = "<group>"; };
 		8FF8B2CC0B67E6810267FAF1 /* Pods-OurQuanmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurQuanmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OurQuanmin/Pods-OurQuanmin.debug.xcconfig"; sourceTree = "<group>"; };
 		A65C16927A2F69AAA92EC00C /* libPods-OurQuanmin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OurQuanmin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F143EE4CFB70F8BB959925ED /* Pods-OurQuanmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurQuanmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-OurQuanmin/Pods-OurQuanmin.release.xcconfig"; sourceTree = "<group>"; };
@@ -380,6 +390,12 @@
 				6A563BD81D2BB8C100D7AC63 /* SettingsTableViewController.h */,
 				6A563BD91D2BB8C100D7AC63 /* SettingsTableViewController.m */,
 				6A563BDA1D2BB8C100D7AC63 /* SettingsTableViewController.xib */,
+				85DCBEDD1D2BD470006B1837 /* HousekeepingViewController.h */,
+				85DCBEDE1D2BD470006B1837 /* HousekeepingViewController.m */,
+				85DCBEDF1D2BD470006B1837 /* HousekeepingViewController.xib */,
+				85DCBEE21D2BE67B006B1837 /* MyWatchlistViewController.h */,
+				85DCBEE31D2BE67B006B1837 /* MyWatchlistViewController.m */,
+				85DCBEE41D2BE67B006B1837 /* MyWatchlistViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -517,6 +533,7 @@
 				6A563BC21D2BA8E000D7AC63 /* LoginViewController.xib in Resources */,
 				629F6E161D1C079100D752C1 /* mic@2x.png in Resources */,
 				629F6E171D1C079100D752C1 /* setting_hg@2x.png in Resources */,
+				85DCBEE11D2BD470006B1837 /* HousekeepingViewController.xib in Resources */,
 				6A563BC41D2BA8E000D7AC63 /* RechargeTableViewController.xib in Resources */,
 				6A563BC01D2BA8E000D7AC63 /* FeedbackViewController.xib in Resources */,
 				6205CB0F1D22BFE600034262 /* huwai.png in Resources */,
@@ -524,6 +541,7 @@
 				629F6DAC1D1BDD3900D752C1 /* Assets.xcassets in Resources */,
 				6A563BC61D2BA8E000D7AC63 /* RegisterActionViewController.xib in Resources */,
 				629F6DE81D1BDFC700D752C1 /* Info.plist in Resources */,
+				85DCBEE61D2BE67B006B1837 /* MyWatchlistViewController.xib in Resources */,
 				6A563BDC1D2BB8C100D7AC63 /* SettingsTableViewController.xib in Resources */,
 				628EABFB1D28E10800C61A4B /* more.jpg in Resources */,
 				629F6E151D1C079100D752C1 /* home@2x.png in Resources */,
@@ -585,7 +603,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85DCBEE51D2BE67B006B1837 /* MyWatchlistViewController.m in Sources */,
 				622783821D23EE3F002C0956 /* AnchorCollectionViewCell.m in Sources */,
+				85DCBEE01D2BD470006B1837 /* HousekeepingViewController.m in Sources */,
 				629F6E031D1C01F800D752C1 /* LiveTVViewController.m in Sources */,
 				6A563BDB1D2BB8C100D7AC63 /* SettingsTableViewController.m in Sources */,
 				6227837E1D23ED9F002C0956 /* ColumnDetailViewController.m in Sources */,
