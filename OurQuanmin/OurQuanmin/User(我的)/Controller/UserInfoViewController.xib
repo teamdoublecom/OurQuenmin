@@ -28,7 +28,7 @@
                     <animations/>
                 </imageView>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Qft-ws-eX0">
-                    <rect key="frame" x="0.0" y="242" width="375" height="366"/>
+                    <rect key="frame" x="0.0" y="242" width="375" height="411"/>
                     <animations/>
                     <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>

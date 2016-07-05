@@ -44,13 +44,13 @@
 		6A563BC41D2BA8E000D7AC63 /* RechargeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BB31D2BA8E000D7AC63 /* RechargeTableViewController.xib */; };
 		6A563BC51D2BA8E000D7AC63 /* RegisterActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BB51D2BA8E000D7AC63 /* RegisterActionViewController.m */; };
 		6A563BC61D2BA8E000D7AC63 /* RegisterActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BB61D2BA8E000D7AC63 /* RegisterActionViewController.xib */; };
-		6A563BC71D2BA8E000D7AC63 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BB81D2BA8E000D7AC63 /* SettingsViewController.m */; };
-		6A563BC81D2BA8E000D7AC63 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BB91D2BA8E000D7AC63 /* SettingsViewController.xib */; };
 		6A563BC91D2BA8E000D7AC63 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BBB1D2BA8E000D7AC63 /* UIView+Toast.m */; };
 		6A563BCA1D2BA8E000D7AC63 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BBD1D2BA8E000D7AC63 /* UserInfoViewController.m */; };
 		6A563BCB1D2BA8E000D7AC63 /* UserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BBE1D2BA8E000D7AC63 /* UserInfoViewController.xib */; };
 		6A563BD61D2BA95000D7AC63 /* SectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BD41D2BA95000D7AC63 /* SectionHeadView.m */; };
 		6A563BD71D2BA95000D7AC63 /* SectionHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BD51D2BA95000D7AC63 /* SectionHeadView.xib */; };
+		6A563BDB1D2BB8C100D7AC63 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A563BD91D2BB8C100D7AC63 /* SettingsTableViewController.m */; };
+		6A563BDC1D2BB8C100D7AC63 /* SettingsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A563BDA1D2BB8C100D7AC63 /* SettingsTableViewController.xib */; };
 		99918DE2D59F2E6D1A5EF478 /* libPods-OurQuanmin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A65C16927A2F69AAA92EC00C /* libPods-OurQuanmin.a */; };
 /* End PBXBuildFile section */
 
@@ -113,9 +113,6 @@
 		6A563BB41D2BA8E000D7AC63 /* RegisterActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterActionViewController.h; sourceTree = "<group>"; };
 		6A563BB51D2BA8E000D7AC63 /* RegisterActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterActionViewController.m; sourceTree = "<group>"; };
 		6A563BB61D2BA8E000D7AC63 /* RegisterActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterActionViewController.xib; sourceTree = "<group>"; };
-		6A563BB71D2BA8E000D7AC63 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		6A563BB81D2BA8E000D7AC63 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		6A563BB91D2BA8E000D7AC63 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		6A563BBA1D2BA8E000D7AC63 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		6A563BBB1D2BA8E000D7AC63 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		6A563BBC1D2BA8E000D7AC63 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
@@ -124,6 +121,9 @@
 		6A563BD31D2BA95000D7AC63 /* SectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeadView.h; sourceTree = "<group>"; };
 		6A563BD41D2BA95000D7AC63 /* SectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeadView.m; sourceTree = "<group>"; };
 		6A563BD51D2BA95000D7AC63 /* SectionHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeadView.xib; sourceTree = "<group>"; };
+		6A563BD81D2BB8C100D7AC63 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		6A563BD91D2BB8C100D7AC63 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		6A563BDA1D2BB8C100D7AC63 /* SettingsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsTableViewController.xib; sourceTree = "<group>"; };
 		8FF8B2CC0B67E6810267FAF1 /* Pods-OurQuanmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurQuanmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OurQuanmin/Pods-OurQuanmin.debug.xcconfig"; sourceTree = "<group>"; };
 		A65C16927A2F69AAA92EC00C /* libPods-OurQuanmin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OurQuanmin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F143EE4CFB70F8BB959925ED /* Pods-OurQuanmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurQuanmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-OurQuanmin/Pods-OurQuanmin.release.xcconfig"; sourceTree = "<group>"; };
@@ -372,14 +372,14 @@
 				6A563BB41D2BA8E000D7AC63 /* RegisterActionViewController.h */,
 				6A563BB51D2BA8E000D7AC63 /* RegisterActionViewController.m */,
 				6A563BB61D2BA8E000D7AC63 /* RegisterActionViewController.xib */,
-				6A563BB71D2BA8E000D7AC63 /* SettingsViewController.h */,
-				6A563BB81D2BA8E000D7AC63 /* SettingsViewController.m */,
-				6A563BB91D2BA8E000D7AC63 /* SettingsViewController.xib */,
 				6A563BBA1D2BA8E000D7AC63 /* UIView+Toast.h */,
 				6A563BBB1D2BA8E000D7AC63 /* UIView+Toast.m */,
 				6A563BBC1D2BA8E000D7AC63 /* UserInfoViewController.h */,
 				6A563BBD1D2BA8E000D7AC63 /* UserInfoViewController.m */,
 				6A563BBE1D2BA8E000D7AC63 /* UserInfoViewController.xib */,
+				6A563BD81D2BB8C100D7AC63 /* SettingsTableViewController.h */,
+				6A563BD91D2BB8C100D7AC63 /* SettingsTableViewController.m */,
+				6A563BDA1D2BB8C100D7AC63 /* SettingsTableViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -509,7 +509,6 @@
 			files = (
 				622783851D23EF91002C0956 /* anchor.jpg in Resources */,
 				6A563BCB1D2BA8E000D7AC63 /* UserInfoViewController.xib in Resources */,
-				6A563BC81D2BA8E000D7AC63 /* SettingsViewController.xib in Resources */,
 				6205CB0B1D22BEB400034262 /* ColumnCollectionViewCell.xib in Resources */,
 				629F6DEF1D1BE0B500D752C1 /* Podfile in Resources */,
 				622783871D23F088002C0956 /* avatar.jpeg in Resources */,
@@ -525,6 +524,7 @@
 				629F6DAC1D1BDD3900D752C1 /* Assets.xcassets in Resources */,
 				6A563BC61D2BA8E000D7AC63 /* RegisterActionViewController.xib in Resources */,
 				629F6DE81D1BDFC700D752C1 /* Info.plist in Resources */,
+				6A563BDC1D2BB8C100D7AC63 /* SettingsTableViewController.xib in Resources */,
 				628EABFB1D28E10800C61A4B /* more.jpg in Resources */,
 				629F6E151D1C079100D752C1 /* home@2x.png in Resources */,
 			);
@@ -587,11 +587,11 @@
 			files = (
 				622783821D23EE3F002C0956 /* AnchorCollectionViewCell.m in Sources */,
 				629F6E031D1C01F800D752C1 /* LiveTVViewController.m in Sources */,
+				6A563BDB1D2BB8C100D7AC63 /* SettingsTableViewController.m in Sources */,
 				6227837E1D23ED9F002C0956 /* ColumnDetailViewController.m in Sources */,
 				6A563BC51D2BA8E000D7AC63 /* RegisterActionViewController.m in Sources */,
 				629F6DFE1D1BE42000D752C1 /* MainTabBarViewController.m in Sources */,
 				6205CB011D22BE0700034262 /* APPFocus.m in Sources */,
-				6A563BC71D2BA8E000D7AC63 /* SettingsViewController.m in Sources */,
 				6205CB001D22BE0700034262 /* Anchor.m in Sources */,
 				6205CB061D22BEA000034262 /* ColumnViewController.m in Sources */,
 				629F6DE51D1BDFC700D752C1 /* HomeViewController.m in Sources */,

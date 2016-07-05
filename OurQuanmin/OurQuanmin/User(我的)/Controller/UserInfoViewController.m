@@ -9,7 +9,7 @@
 #import "UserInfoViewController.h"
 #import "SectionHeadView.h"
 #import "FeedbackViewController.h"
-#import "SettingsViewController.h"
+#import "SettingsTableViewController.h"
 #import "LoginViewController.h"
 @interface UserInfoViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *headView;
@@ -67,7 +67,7 @@
 
 - (void)settingsAction{
     
-    SettingsViewController *vc = [SettingsViewController new];
+    SettingsTableViewController *vc = [SettingsTableViewController new];
     
     [self.navigationController pushViewController:vc animated:YES];
     
